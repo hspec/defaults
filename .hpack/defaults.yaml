@@ -1,8 +1,0 @@
-source-dirs: test
-main: Spec.hs
-generate-file:
-  name: test/Spec.hs
-  contents: "{-# OPTIONS_GHC -F -pgmF hspec-discover #-}\n"
-build-tools: hspec-discover
-dependencies:
-  - hspec == 2.*
